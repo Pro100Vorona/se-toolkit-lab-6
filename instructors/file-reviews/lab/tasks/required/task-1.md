@@ -27,8 +27,8 @@ No issues found.
 
 ### D4. Checkpoints and feedback loops
 
-1. **[Low]** Line 416: [Step 1.4.7](lab/tasks/required/task-1.md#147-update-and-test-on-the-vm) checkpoint says "You should get `200` with `new_records` and `total_records`" but does not show an expected JSON response body, unlike [step 1.4.3](lab/tasks/required/task-1.md#143-run-and-test-locally) (lines 293–300) and [step 1.4.5](lab/tasks/required/task-1.md#145-test-idempotency-locally) (lines 356–361) which include exact expected JSON.
-   **Suggested fix:** Add an expected JSON response block for consistency with other checkpoints.
+1. ~~**[Low]** Line 416: [Step 1.4.7](lab/tasks/required/task-1.md#147-update-and-test-on-the-vm) checkpoint says "You should get `200` with `new_records` and `total_records`" but does not show an expected JSON response body, unlike [step 1.4.3](lab/tasks/required/task-1.md#143-run-and-test-locally) (lines 293–300) and [step 1.4.5](lab/tasks/required/task-1.md#145-test-idempotency-locally) (lines 356–361) which include exact expected JSON.
+   **Suggested fix:** Add an expected JSON response block for consistency with other checkpoints.~~
 
 ### D5. Acceptance criteria alignment
 
@@ -210,12 +210,12 @@ No TODOs found.
 | --- | --- |
 | Conceptual [High] | 0 |
 | Conceptual [Medium] | 0 |
-| Conceptual [Low] | 2 |
+| Conceptual [Low] | 1 |
 | Convention [High] | 0 |
 | Convention [Medium] | 0 |
 | Convention [Low] | 2 |
 | TODOs | 0 |
 | Empty sections | 0 |
-| **Total** | **4** |
+| **Total** | **3** |
 
-**Overall:** The remaining issues are conceptual (author decisions required) plus two low-severity convention findings. Step 1.2 includes branch creation instructions that the template reserves for a dedicated step (Section 1 finding), and one borderline compound instruction in step 1.4.3 could optionally be split (4.1 finding). All high and medium violations have been fixed. The D2 "try" verb inconsistency was resolved by referencing the interaction pattern from step 1.4.3.
+**Overall:** The remaining issues are one conceptual (author decision required) plus two low-severity convention findings. Step 1.2 includes branch creation instructions that the template reserves for a dedicated step (Section 1 finding), and one borderline compound instruction in step 1.4.3 could optionally be split (4.1 finding). All high and medium violations have been fixed.

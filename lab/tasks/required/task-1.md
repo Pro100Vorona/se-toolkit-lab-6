@@ -418,7 +418,16 @@ The code stubs in `backend/app/etl.py` contain detailed TODOs.
 
 5. Run `POST /pipeline/sync` once.
 
-   You should get `200` with `new_records` and `total_records`.
+   You should see a `200` response with a `JSON` body:
+
+   ```json
+   {
+     "new_records": 150,
+     "total_records": 150
+   }
+   ```
+
+   The exact numbers depend on how many check results exist in the `Autochecker`.
 
 ### 1.5. Finish the task
 
