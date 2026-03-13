@@ -8,9 +8,9 @@ __pycache__/
 .pytest_cache
 
 .direnv
-
+.env.agent.secret
 .lycheecache
 
 tmp
 
-**/settings.local.json
+**/settings.local.json.env.agent.secret
